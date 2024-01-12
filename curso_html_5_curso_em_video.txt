@@ -1,0 +1,449 @@
+= HTML 5 = 
+----------
+Curso em Video:
+usuario: hiperfatman
+email: hiperfatman@gmail.com
+atual--> 996633@Curso   (php)
+antes---> senha: 99663355 (java)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Curso HTML5 e CSS3: módulo 2 de 5 40 HORAS
+--------------------------------------------
+- cores.
+
+- fontes.
+no google--> css web safe font combination ---> W3Schools
+
+usar a propriedade font-size nas suas configurações CSS, e usar:
+medidas absolutas 
+(
+cm (centimetro), 
+mm (milimetro), 
+in (polegas), 
+pt (pontos), 
+px (pixels), 
+pc (parca) 
+)
+ 
+medidas relativas 
+(
+em (a altura de um M maiusculo da fonte), 
+ex (a altura X da fonte), 
+rem (mesma que em porém relativa ao body),
+vh (largura da view port (tamanho da tela),
+vw (altura  da view port (tamanho da tela), 
+% (porcentagem)
+--> tem outras mas as mais utilizadas são essas!!!
+) 
+
+para a propriedade de tamanho de fonte? 
+é a recomendação do consórcio W3C para definir tamanhos de fonte
+W3C--> absolutas: px e relativas: em
+
+tamanho normal é: 16px
+
+Google Fonts--> https://fonts.google.com/
+outro site  --> https://www.dafont.com/pt/
+
+Tipos de format()
+- opentype (a maioria para extensões: otf)
+- truetype (a maioria para extensoes: ttf)
+- embedded-opentype 
+- truetype-aat (Apple Advanced Typography)
+- svg
+
+3 extensoes para o Google Chrome:
+Web Developer
+ColorZilla
+Fonts Ninja
+
+Detectando fontes dentro de imagens (a grande maioria não 'detecta' certo, mas...)
+3 sites:
+https://www.whatfontis.com/
+https://www.fontsquirrel.com/
+https://www.myfonts.com/
+
+body--> #d6fde9
+h1  --> #1e402f
+princi> #3c805e
+h2  --> #3c805e
+
+- id    é apenas um por elemento na página!!! pode duplicar e funciona, mas está E R R A D O!!!!
+- class poder ser com vários elementos na página!!!
+
+- tem hierarquia entre id e class
+  - 01: padrão
+  - 02: id
+  - 03: class
+  --> sempre fica ligado o último!!!
+
+- div--> é uma marcação de espaço na página. eu digo que é um divisõria!!!
+
+- no CSS, a pseudo-class é representada por : (dois pontos)
+- as pseudo-class está associado ao estado do elemento (objeto), tipo: ligado, click, sair,  etc...
+  exemplo: estado hover: quando passa o mouse aplica a pseudo-class.
+
+- no CSS, a pseudo-elemento é representada por :: (dois pontos duas vezes!!!)
+
+- no CSS:
+  #  = id
+  .  = class
+  :  = pseudo-class
+  :: = pseudo-element
+  >  = children  
+  
+
+anatomia de uma baixa (box):
+- tem o conteúdo.
+- da borda para dentro --> padding (acochoamento)
+- da borda para fora   --> margin  (margem)
+- um pontilhado fora da borda--> outline (traçado)
+
+tipos de caixa (box)
+- box-level    --> começa na proxima linha e linha toda.   (outra linha)     - exemplo: <div>
+- inline-level --> continua na linha e não quebra a linha. (dentro da linha) - exemplo: <span>
+
+- "user agent" é o seu navegador (browser)
+
+- devTools  do Google Chrome é apenas parsa visualizacao - não altera o arquivos original.
+
+Capítulo 16 Aula 03 – Modelo de Caixas na prática (Pt.2)
+shorthands para simplificar o uso de propriedades CSS.
+
+se precisar transformar box-level em outline-leve, use os comandos:
+--> display: inline;
+--> display: block;
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------
+Curso HTML5 e CSS3: módulo 1 de 5 40 HORAS
+--------------------------------------------
+
+--> ultimo video visto: Capítulo 10 Aula 4 – Desafios propostos, proximo: Capítulo 11 Aula 1 – 
+
+--> foco!!!
+--> exercitar bastante!!!
+--> tem certificados por modulo.
+--> tem prova no fim do modulo.
+--> MB <> Mb
+	MB:--> megabytes - é mais utilizada para armazenamento. Meu HD tem 1 terabytes.
+	Mb:--> megabits  - é mais utilizada para transmissão.   Minha placa de rede tem 100 megabits.
+--> HTML------> para conteúdo (texto, imagem, video, tabela, lista, etc...)
+    CSS ------> para design   (cor, posicao, tamanho, etc...)
+    JAVASCRIPT> para integração (programacao: if, while, etc...)
+--> FRONT-END----> client-side.	(desenvolvimento do lado do cliente)
+	BACK-END ----> server-side. (desenvolvimento do lado do servidor)
+	FULL STACK --> desenvolvedor back-end e front-end  (desenvolvimento dos dois lados: cliente e servidor)
+	
+--> ler os arquivos PDF's.
+
+--> existem tag obsoletas. Portanto, não utiliza-las!!!
+--> formato imagem para internet:
+	- jpg: imagem altamente comprimida e não suporta transparencia
+	- png: imagem baixa     comprimida e     suporte transparencia.
+--> https://gustavoguanabara.github.io/html-css/
+--> lembre-se:
+		html5 --> semantica ---> significado.
+		css3  --> estilo    ---> forma.
+--> SEO: Search Engine Optimization - motor de otimização de pesquisa.
+-->
+
+https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf
+https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n
+https://www.youtube.com/@CursoemVideo
+https://www.hostnet.com.br/
+https://gustavoguanabara.github.io
+https://www.cursoemvideo.com
+
+
+cores-->
+fbe9b1 - amarelo claro
+f4b9c2 - vermelho claro
+abc7ab - verde claro
+
+audio-->
+pegar audio no Youtube Studio - na biblioteca - é gratis e só tem que ver se está 'liberado' pelo dono!
+
+video-->
+os site apresentados não funciona aqui nesse computador por causa do anti-virus!!!
+voce tem que produzir os seus videos!!!!
+
+DESAFIO 008-->
+pagina cinza  - home
+pagina verde   - 1
+pagina amarela - 2
+
+na pagina cinza   --> links para: pagina verde e pagina amarela.
+na pagina verde   --> links para: pagina cinza e pagina amarela.
+na pagina amarela --> links para: pagina cinza e pagina verde.
+
+
+Capítulo 12 Aula 1 – Estilos CSS inline
+
+
+css in-line --> o estilo é na mesma linha dentro das tags da pagina do HTML5. (((não é utilizadoa!!!)) é pontual!!!!
+
+css internos ou local--> no mesmo arquivo, na parte de head, codificando tag a tag o que quer 'desenhar'.
+
+css externos--> é uma arquivo externo com somente o 'style'.
+
+pode ser usado os 3 modos! porém tem uma prevalecencia: in-lne - internos e externos.
+
+
+NÃO CONSIGO ACESSAR O MODULO 2 - DIZ QUE NÃO TEM CADASTRO!!!
+
+mandei email pela pagina de formulariso deles em 17/05/2023 - as 09:30 horas. aguardando...
+era o botao no meio da pagina --> COMECAR O CURSO - CLIQEU AQUI e não tinha visto.
+mandei outro email cancelando o pedido.
+
+--------------------------------------------
+Curso HTML5 e CSS3: módulo 2 de 5 40 HORAS
+--------------------------------------------
+--> c o r e s:
+- psicologia das cores: cor VENDE!!!
+- as cores são as combinaçaões de vermelho, verde e azul
+- caracteristicas das cores no CSS: matiz (hill), saturação () e luminosidade--> hsl
+  exemplo: azul--> hsl(240, 100%, 50%)
+- tem também o rgba e hsla, onde a é a transparencia, que vai de 0 até 0,999 (não chega a 1).
+- harmonia de cores --> circulo cromático!
+- simetria é bonita!!!
+- cores:
+  - primarias  : amarelo, vermelho e azul.
+  - segundárias: laranja, violeta e verde.
+  - terciarias : é a mistura das cores primarias e secundárias.
+    - exemplo: amarelo-esverdeado (a cor primaria vem primeiro e a segundária por ultimo)
+	           amarelo-alaranjado
+			   vermelho-alaranjado
+			   vermelho-arroxeado
+			   azul-arroxeado
+			   azul-esverdeado
+   - temperatura de cores: quentes (mais light) e frias (mais dark)
+- paleta de cores: decidir a cor princial e depois as suas dependencias.
+   - tem no maximo de 3 a 5 cores, desconsiderando o branco.
+- cores complementares: pegar o extremo oposto!
+- cores analogas: cores imediantamente ao lado.
+- juntando--> cores complentares e cores analogas, dá uma paleta de cores!!!
+- cores analogas relacionadas: pega duas, pula uma e pega a terceira!!!
+  exemplo: amarelo, amarelo-alaranjado, vermelho-alaranjado.
+- cores intercadas: escolhe uma, pula, escolhe a segunda, pula e escolhe a terceira. 
+- cores triadicas: escolhe uma, pula tres, escolhe e pula tres e escolhe a terceira. (forma um triangulo e pode rodar!)
+- cores quradadicas: escolhe uma, pula duas, escolha, pula duas, escolhe, pula duas e escolhe a quarta. (forma um quadrado e pode rodar!)
+- cores tetraticas: escolha uma core e pega a complementar. escolhe outra cor e escolhe a complementar. (forma um retangulo e pode reodar).
+- monocromia: uma cor so. Muda apenas a saturação e o brilho! (hsl) --> degradê.
+
+site para ver as cores--> https://color.adobe.com/pt/create/color-wheel
+para salvar, é pago!
+/* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex { color: #02EB82; }
+.My-Color-Theme-2-hex { color: #AA9DEB; }
+.My-Color-Theme-3-hex { color: #86EBBD; }
+.My-Color-Theme-4-hex { color: #EB7F6E; }
+.My-Color-Theme-5-hex { color: #EBDD7A; }
+
+/* Color Theme Swatches in RGBA */
+.My-Color-Theme-1-rgba { color: rgba(2, 235, 130, 1); }
+.My-Color-Theme-2-rgba { color: rgba(170, 157, 235, 1); }
+.My-Color-Theme-3-rgba { color: rgba(134, 235, 189, 1); }
+.My-Color-Theme-4-rgba { color: rgba(235, 127, 110, 1); }
+.My-Color-Theme-5-rgba { color: rgba(235, 221, 122, 1); }
+
+/* Color Theme Swatches in HSLA */
+.My-Color-Theme-1-hsla { color: hsla(152, 98, 46, 1); }
+.My-Color-Theme-2-hsla { color: hsla(249, 66, 76, 1); }
+.My-Color-Theme-3-hsla { color: hsla(152, 71, 72, 1); }
+.My-Color-Theme-4-hsla { color: hsla(8, 75, 67, 1); }
+.My-Color-Theme-5-hsla { color: hsla(52, 73, 70, 1); }
+
+site para ver as cores--> http://paletton.com/  (faz um previu da pagina como exemplo!!!)
+
+site para ver as cores--> https://coolors.co/   (mais fraquinho!!!)
+ 
+extensão para o Google Chrome --> ColorZilla --> captura a imagem da tela e dá o codigo da cor!!!
+
+
+#C2DBB0
+#125189
+#F1D8C9
+#F2C3A7
+#F39209
+
+/*
+/* Color Theme Swatches in Hex */
+.Copy-of-Pastel-Little-Twins-1-hex { color: #FEE8E2; }
+.Copy-of-Pastel-Little-Twins-2-hex { color: #FFFCD7; }
+.Copy-of-Pastel-Little-Twins-3-hex { color: #CBE8DD; }
+.Copy-of-Pastel-Little-Twins-4-hex { color: #F8C8C5; }
+.Copy-of-Pastel-Little-Twins-5-hex { color: #DFD4EB; }
+
+/* Color Theme Swatches in RGBA */
+.Copy-of-Pastel-Little-Twins-1-rgba { color: rgba(253, 232, 226, 1); }
+.Copy-of-Pastel-Little-Twins-2-rgba { color: rgba(255, 251, 214, 1); }
+.Copy-of-Pastel-Little-Twins-3-rgba { color: rgba(202, 232, 221, 1); }
+.Copy-of-Pastel-Little-Twins-4-rgba { color: rgba(247, 200, 196, 1); }
+.Copy-of-Pastel-Little-Twins-5-rgba { color: rgba(223, 212, 235, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Copy-of-Pastel-Little-Twins-1-hsla { color: hsla(12, 93, 94, 1); }
+.Copy-of-Pastel-Little-Twins-2-hsla { color: hsla(55, 100, 92, 1); }
+.Copy-of-Pastel-Little-Twins-3-hsla { color: hsla(157, 38, 85, 1); }
+.Copy-of-Pastel-Little-Twins-4-hsla { color: hsla(3, 78, 87, 1); }
+.Copy-of-Pastel-Little-Twins-5-hsla { color: hsla(268, 36, 87, 1); }
+
+*/
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------
+--> PRIMEIRO PROJETO:
+---------------------
+--> capitulo 17 - modulo 2:
+
+https://www.youtube.com/watch?v=l2UDgpLz20M
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Curso HTML5 e CSS3: módulo 2 de 5 40 HORAS
+--> desafio:
+- site para 'desenhar' a pagina antes--> www.mockflow.com
+
+https://mockflow.com/signup/
+para planejar um site - quase gratuito
+usuario: hiperfatman@gmail.com
+senha: 996633@Piso
+
+
+android.com\intl\en_uk\history
+
+
+extensão do google chrome--> window resizer
+
+para envelopar ctrl+shift+P
+
+background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 0, 0.5),
+    rgba(0, 0, 255, 0.5)
+  ), url("catfront.png");
+
+/* Global values */
+background-image: inherit;
+background-image: initial;
+background-image: revert;
+background-image: revert-layer;
+background-image: unset;
+
+
+
+emojipedia ---> pegar emojis - mas já vale no google chrome!!!
+
+
+teste do modulo --> de 10 perguntas acertei 8. essas duas não dá pra ver quais são!
+
+DONE!
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Curso HTML5 e CSS3: módulo 3 de 5 40 HORAS
+
+19/12/2023 - 17:53 h.
+começa no capitulo 18 e termina no 21.
+
+www.github.com
+usuario: hiperfatman
+email: supermanfolha3@gmail.com
+senha: 996633@Guarda
+       996633@Guarda
+
+git / github
+repositorio local e repositorio remoto
+versionamento --> guardar versões anteriores.
+gerenciador de versão--> git --> grátis!!! software livre.
+github--> é o git na nuvem!!!
+gitHub foi comprado pela Microsoft.
+
+repositorio local  --> git
+repositorio remoto --> gitHub
+
+push--> para atualizar o repositorio remoto!!!
+
+para acessar o github é no navegador--> www.github.com
+
+meu gitHub--> https://github.com/HIPERFATMAN
+
+meu primeiro repositorio 
+--> local : html  
+--> remoto:
+
+github--> espaço gratis é de 100 megabytes!!!
+
+
+
+Your site is live at https://hiperfatman.github.io/html/
+  desafio 10 -->     https://hiperfatman.github.io/html/des010/androide.html
+  
+gitHub --> é uma rede social!!!
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Curso HTML5 e CSS3: módulo 4 de 5 40 HORAS
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+(*) o modulo 5 de 5 --> não tem na pagina!!! não deve estar pronto!!!
+

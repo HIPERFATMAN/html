@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+  <title>Midias em HTML5</title>
+</head>
+<body>
+  <h1>IMAGEM DINAMICA</h1>
+  <p>Tente abrir esse site em vários dispositivos diferentes ou aumente o tamanho do seu navegador.</p>
+  <picture>
+    <source media="(max-width: 750px)" srcset="imagens/foto_p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/foto_m.png" type="image/png">
+    <img src="imagens/foto_g.png" alt="imagem flexivel">
+  </picture>
+  <hr>
+  <h1>Reproduzindo audio</h1>
+  <h2>Vamos aprender a reproduzir audios em HTML5</h2>
+  <h3>maneira 001:</h3>
+  <audio src="midia/happy-mistake.mp3" controls autoplay loop></audio>
+
+<!--formatos: mp3, wav, ogg. O navegador tem que ter compatibilidade com os formatos-->
+
+   <h3>maneira 002:</h3>
+   <audio preload="metadata" controls autoplay loop>
+    <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+    <source src="midia/guanacast-33.ogg" type="audio/ogg">
+    <source src="midia/guanacast-33.wav" type="audrio/wav">
+    <p>infelizmente o seu navegador não consegue reproduzir arquivo de audio: mp3, ogg e wav. <a href="midia/guanacast-33.mp3">Clique aqui para baixar o GuanabaraCast - mp3</a></p>
+   </audio>
+   <hr>
+   <h2>V I D E O S</h2>
+   <h3>Aprendendo colocar video no site</h3>
+   <p>
+    Está no exercício número 12.
+   </p>
+
+
+
+   <hr>
+</body>
+</html>
