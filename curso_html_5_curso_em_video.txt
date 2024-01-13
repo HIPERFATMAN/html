@@ -406,6 +406,24 @@ na pratica-->
 	  backgound-size: cover;
 	  
 		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		
 
 
