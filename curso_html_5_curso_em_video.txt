@@ -390,47 +390,23 @@ Your site is live at https://hiperfatman.github.io/html/
   
 gitHub --> é uma rede social!!!
 
-
-  
-
+exercicios 22 --> https://hiperfatman.github.io/html/mod03/html_css/ex022/fundo005.html
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+--> SHORHAND para o 'background':
+tem que seguir essa sequencia:
+		--> color > image > position > repeat > {{{{{sie}}}}}} > attachment
+o 'sixe' tem essas considerações: o 'size' não funciona no shorthand. tem que tirar e colocar a parte.
+na pratica--> 
+  (com o size não funcionando)
+      background: black url('imagem\wallpaper2.png') center center no-repeat cover fixed;
+		
+  (sem o  size)
+      background: black url('imagem\wallpaper2.png') center center no-repeat fixed;
+	  backgound-size: cover;
+	  
+		
+		
 
 
 
