@@ -421,7 +421,47 @@ hierarquia de uma tabela simples-->
     -> table row (linha da tabela)
          -> table header  (titulo da tabela)
          -> table data    (dados  da tabela)
-         
+
+anatomia de uma tabela grande-->
+-> table (tabela)
+    -> caption (legenda)
+    -> thead (cabeça)
+        -> tr (linha)
+        -> td (dado)
+        -> th (titulo)
+    -> tbody (corpo)
+        -> tr (linha)
+        -> td (dado)
+        -> th (titulo)
+    -> tfoot (pé)
+        -> tr (linha)
+        -> td (dado)
+        -> th (titulo)
+
+
+estilo pontual na tabela não funcionou!!!!
+  <h1>TABELAS GRANDES</h1>
+
+  <table>
+
+    <caption>POPULACAO DAS UNIDADES DA FEDERAÇÃO - BRASIL</caption>
+
+    <thead>
+      <tr>
+        <th scope="col">RANKING</th>
+        <th scope="col">UNIDADE FEDERACAO</th>
+*****        <th scope="col" style="width: 50px;">POPULACAO</th>  ***** nao funciona!
+        <th scope="col">% SOBRE TOTAL</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+
+
+    
+
+
 
 
 
