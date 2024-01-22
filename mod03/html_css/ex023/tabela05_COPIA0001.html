@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
+  <title>TABELA 05</title>
+
+  <style>
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table {
+      width: 1000px;
+      border-collapse: collapse;
+      
+    }
+
+    col.cnome {
+      background-color: lightblue;
+    }
+    
+
+    caption {
+      padding: 10px;
+      border: 1px solid black;
+      background-color: lightgreen;
+    }
+
+    thead, tfoot {
+      background-color: lightgray;
+    }
+    
+
+    tr, td, th {
+      border: 1px solid black;
+      padding: 10px;
+      
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <h1>DESTACANDO A COLUNA</h1>
+
+
+  <table>
+
+    <colgroup>
+      <col class="cnome">
+      <col class="csexo">
+      <col class="cidade">
+      <col class="cprof">    
+    </colgroup>   
+
+    <caption>CADASTRO DE CLIENTES</caption>
+    
+    <thead>
+      <tr>
+        <th scope="col">NOME</th>
+        <th scope="col">SEXO</th>
+        <th scope="col">IDADE</th>
+        <th scope="col">PROFISSAO</th>
+      </tr>
+    </thead>
+
+
+    <tbody>
+
+      <tr>
+        <td>JOSE DA SILVA</td>
+        <td>M</td>
+        <td>50</td>
+        <td>Carpinteiro</td>
+      </tr>
+
+      <tr>
+        <td>MARIA DAS GRAÇAS</td>
+        <td>F</td>
+        <td>48</td>
+        <td>Do lar</td>
+      </tr>
+
+      <tr>  
+        <td>MARCIO DA SILVASSAURO</td>
+        <td>M</td>
+        <td>18</td>
+        <td>Gamer</td>
+      </tr>
+
+      <tr>
+        <td>MARINA DE OLIVEIRA SANTOS SILVA</td>
+        <td>F</td>
+        <TD>15</TD>
+        <td>Estudante</td>
+      </tr>
+
+
+    </tbody>
+
+
+
+
+    <tfoot>
+      <tr>
+        <th scope="row" colspan="3">QUANTIDADE</th>
+        <td>9999</td>
+      </tr>
+    </tfoot>
+
+
+
+
+
+
+
+
+  </table>
+
+
+  
+</body>
+</html>
