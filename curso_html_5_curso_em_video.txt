@@ -462,6 +462,9 @@ estilo pontual na tabela não funcionou!!!!
 rowspan--> mesclagem de linha
 colspan--> mesclatem de coluna
 
+o desafio 013 --> fiz 'copiando' a imagem. não foi automatico!!!
+
+
 
     
 
