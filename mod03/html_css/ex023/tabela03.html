@@ -5,14 +5,131 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
   <title>TABELA 03</title>
+
+  <style>
+
+    legend {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 1.3em;      
+    }
+
+    table {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;        
+      width: 350px;      
+    }
+
+    tr, td, th {
+      border: 1px solid black;
+      text-align: center;      
+      padding: 5px;
+    }
+
+  </style>
 </head>
 <body>
-  <h1>TABELA 03</h1>
+  <h1>MESCLAGEM DE CELULAS</h1>
 
 
 
+  <table>
 
-  <hr>
+    <legend>TABELA ORIGINAL</legend>
+
+    <thead>
+      <tr>
+        <th>COLUNA 1</th>
+        <th>COLUNA 2</th>  
+        <th>COLUNA 3</th>
+      </tr>
+    </thead>    
+
+    <tbody>
+      <tr>
+        <td>10</td>
+        <td>20</td>
+        <td>30</td>
+      </tr>
+
+      <tr>
+        <td>40</td>
+        <td>50</td>
+        <td>60</td>
+      </tr>
+
+      <tr>
+        <td>70</td>
+        <td>80</td>
+        <td>90</td>
+      </tr>
+
+      <tr>
+        <td>100</td>
+        <td>110</td>
+        <td>120</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <th>total</th>
+        <th>geral</th>
+        <td>999</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <br>
+  <br>
+
+
+  <table>
+
+    <legend>MESCLAGEM DE TABELAS</legend>
+
+    <thead>
+      <tr>
+        <th>COLUNA 1</th>
+        <th>COLUNA 2</th>  
+        <th>COLUNA 3</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>10</td>
+        <td colspan="2">20</td>
+        <!--<td>30</td>-->
+      </tr>
+
+      <tr>
+        <td rowspan="2">40</td>
+        <td>50</td>
+        <td>60</td>
+      </tr>
+
+      <tr>
+        <!--<td>70</td>-->
+        <td>80</td>
+        <td>90</td>
+      </tr>
+
+      <tr>
+        <!--<td>100</td>-->
+        <td>110</td>
+        <td>120</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <th>total</th>
+        <th>geral</th>
+        <td>999</td>
+      </tr>
+    </tfoot>
+  </table>
+
   
 </body>
 </html>

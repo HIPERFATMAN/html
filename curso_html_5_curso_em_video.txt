@@ -458,6 +458,10 @@ estilo pontual na tabela não funcionou!!!!
     <tbody>
 
 
+--> mesclagem de celulas:
+rowspan--> mesclagem de linha
+colspan--> mesclatem de coluna
+
 
     
 
